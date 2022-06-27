@@ -64,7 +64,7 @@ function Home() {
             justifyContent: "center",
           }}
         >
-          <ImageBox src="https://quatrorodas.abril.com.br/wp-content/uploads/2019/02/dc5aeab5-ferrari-f8-tributo-1.jpg"></ImageBox>
+          <ImageBox src="https://escoladainteligencia.com.br/wp-content/uploads/2019/04/282148-revisor-entregar-ate-hoje-ate-15-horas-governanca-corporativa-e-gestao-escolar-entenda-essa-relacao-1.jpg"></ImageBox>
         </Grid>
         <Grid
           item
@@ -121,7 +121,7 @@ function Home() {
             justifyContent: "center",
           }}
         >
-          <ImageBox src="https://quatrorodas.abril.com.br/wp-content/uploads/2019/02/dc5aeab5-ferrari-f8-tributo-1.jpg"></ImageBox>
+          <ImageBox src="https://cdn.pixabay.com/photo/2017/08/10/04/30/ipad-2618187_960_720.jpg"></ImageBox>
         </Grid>
       </Grid>
 

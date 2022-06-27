@@ -1,14 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import Router from "./Router";
-import Home from "./pages/Home";
 import StylesGlobal from "./GlobalStyle";
-import { ThemeProvider } from "@mui/material";
+import { Button, ThemeProvider } from "@mui/material";
 import { lightTheme, darkTheme } from "./Theme";
 
 function App() {
+  const [theme, setTheme] = useState(lightTheme);
+
+  function changeTheme() {
+    if (theme !== darkTheme) {
+      setTheme(darkTheme);
+      return;
+    }
+
+    setTheme(lightTheme);
+  }
+
   return (
     <div>
-      <ThemeProvider theme={darkTheme}>
+      <ThemeProvider theme={theme}>
+        <Button onClick={changeTheme} sx={{ position: "absolute" }}>
+          Change Theme
+        </Button>
         <StylesGlobal />
         <Router />
       </ThemeProvider>
