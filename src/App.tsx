@@ -5,7 +5,7 @@ import { Button, ThemeProvider } from "@mui/material";
 import { lightTheme, darkTheme } from "./Theme";
 
 function App() {
-  const [theme, setTheme] = useState(lightTheme);
+  const [theme, setTheme] = useState(darkTheme);
 
   function changeTheme() {
     if (theme !== darkTheme) {
